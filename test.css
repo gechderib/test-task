@@ -1,0 +1,96 @@
+
+.container{
+    height: 1440px;
+    width: 1024px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7dbe8b;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 708px;
+    height: 792px;
+}
+.left-container{
+    border: 1px solid #084B3E;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #084B3E;
+
+}
+.right-container {
+    border: 1px solid white;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.logo span {
+    color: #00C38B;
+    
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.say{
+    margin-top: 300px;
+}
+.say p {
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+}
+.lets {
+    font-size: 30px;
+}
+input {
+    width: 85%;
+    padding: 13px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #00C38B;
+}
+
+
+.spacer {
+    height: 200px;
+}
+
+button {
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #00C38B;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 13px;
+}
+
+.terms {
+    color:  #BDBDBD;
+    font-size: 10px;
+    
+}
+
+.login {
+    color: #BDBDBD;
+    font-size: 14px;
+}
+
+a {
+    color: #19B07E;
+    text-decoration: none;
+    font-size: 14px;
+}
